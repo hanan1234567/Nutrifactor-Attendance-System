@@ -1,0 +1,13 @@
+.role-form{
+    position: fixed;
+     top:0;left:15px; min-width:100%; min-height:100vh;max-height:100vh;display:none;align-items: center; justify-content: center; background: rgba(0, 0, 0, 0.7);
+     z-index: 100;
+ }
+.role-form>div>div:first-child{height:30px;display: flex;justify-content:flex-end;align-items: center;color:black;font-weight: bolder;}
+.role-form>div>div:first-child>span{cursor:pointer;}
+ .role-form>div:first-child{max-height: 100vh;overflow-y: auto;
+     transition-property:all;transition-timing-function:linear;transition-duration:2s}
+ .role-form>div{border-radius:3px;background-color: white;}
+ .role-form-show{display:flex;}
+   .record-form-show{display:flex;}
+ input:focus{outline: none;}
