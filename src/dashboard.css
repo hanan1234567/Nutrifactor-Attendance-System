@@ -1,4 +1,0 @@
-.dashboard-cover{display: flex;justify-content: center;}
-.dashboard .graphs {background-color: white;border-radius:3px;}
-.graphs .graph-title{display: flex;align-items: center;flex-direction:row;}
-.graphs .graph-title>span{font-weight: bold;}

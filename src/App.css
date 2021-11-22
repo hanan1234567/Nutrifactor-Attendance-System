@@ -1,1 +1,8 @@
 *:focus{outline: none !important;}
+a{color: black;}
+.crimson{color: crimson;}
+.align-center{display: flex;align-items: center;}
+.center{display: flex;justify-content: center;align-items: center;}
+.between{display: flex;justify-content: space-between;align-items: center;}
+.column-between{display: flex;flex-direction: column;align-items: center;}
+/* .form-control{outline: none;box-shadow: none;} */
